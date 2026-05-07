@@ -1,0 +1,6 @@
+2026-05-07 15:09:18,902 | INFO | root | Admin panel: http://127.0.0.1:8080/admin
+2026-05-07 15:09:19,074 | INFO | aiogram.dispatcher | Start polling
+2026-05-07 15:09:28,537 | INFO | aiogram.dispatcher | Run polling for bot @dev_cardplacesmarket_bot id=8547453594 - 'Напомню обо всем'
+2026-05-07 15:09:39,409 | INFO | aiogram.event | Update id=252250649 is handled. Duration 1984 ms by bot id=8547453594
+2026-05-07 15:09:46,612 | INFO | aiogram.event | Update id=252250650 is handled. Duration 561 ms by bot id=8547453594
+2026-05-07 15:10:21,041 | INFO | aiogram.event | Update id=252250651 is handled. Duration 844 ms by bot id=8547453594
