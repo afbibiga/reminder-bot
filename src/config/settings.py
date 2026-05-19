@@ -16,6 +16,8 @@ class AppConfig:
     admin_login: str
     admin_password: str
     admin_enabled: bool
+    webhook_enabled: bool
+    webhook_url: str
 
 
 def str_to_bool(value: str | None, default: bool) -> bool:
@@ -45,4 +47,6 @@ def load_config() -> AppConfig:
         admin_login=os.getenv("ADMIN_LOGIN", "admin"),
         admin_password=os.getenv("ADMIN_PASSWORD", "change_me_now"),
         admin_enabled=str_to_bool(os.getenv("ADMIN_ENABLED"), True),
+        webhook_enabled=str_to_bool(os.getenv("WEBHOOK_ENABLED"), False),
+        webhook_url=os.getenv("WEBHOOK_URL", "").strip(),
     )
